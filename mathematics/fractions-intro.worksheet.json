@@ -1,0 +1,67 @@
+{
+  "$schemaVersion": "2.0",
+  "title": "Introducing Fractions",
+  "subject": "Mathematics",
+  "topic": "Fractions",
+  "audience": "Year 4 pupils",
+  "language": "en-GB",
+  "estimatedMinutes": 20,
+  "instructions": "Work through each activity. Use the Check button to see how you did — a hint will help if you get stuck.",
+  "sections": [
+    {
+      "title": "What is a fraction?",
+      "activities": [
+        {
+          "type": "content",
+          "sections": [
+            { "heading": "Parts of a whole", "body": "A **fraction** shows equal parts of a whole. The bottom number, the *denominator*, tells you how many equal parts there are. The top number, the *numerator*, tells you how many parts you have." }
+          ]
+        },
+        {
+          "type": "mcq",
+          "question": "A pizza is cut into 4 equal slices and you eat 1. What fraction did you eat?",
+          "options": ["1/2", "1/4", "4/1", "1/3"],
+          "answer": 1,
+          "hint": "Count the total slices for the bottom number, and how many you ate for the top.",
+          "explanation": "One slice out of four equal slices is 1/4."
+        },
+        {
+          "type": "true-false",
+          "statement": "In the fraction 3/5, the number 5 is the numerator.",
+          "answer": false,
+          "hint": "Which number sits on the bottom, and what is that part called?",
+          "explanation": "False — 5 is on the bottom, so it is the denominator. 3 is the numerator."
+        }
+      ]
+    },
+    {
+      "title": "Practice",
+      "activities": [
+        {
+          "type": "gap-fill",
+          "text": "In the fraction 2/3, the numerator is {{2}} and the denominator is {{3}}.",
+          "hint": "Top number first, then the bottom number.",
+          "explanation": "The numerator (top) is 2 and the denominator (bottom) is 3."
+        },
+        {
+          "type": "matching",
+          "prompt": "Match each fraction to its picture description.",
+          "pairs": [
+            { "left": "1/2", "right": "one of two equal parts" },
+            { "left": "1/3", "right": "one of three equal parts" },
+            { "left": "3/4", "right": "three of four equal parts" }
+          ],
+          "hint": "The bottom number tells you how many equal parts in total.",
+          "explanation": "1/2 = one of two parts, 1/3 = one of three parts, 3/4 = three of four parts."
+        },
+        {
+          "type": "ordering",
+          "prompt": "Put these fractions in order from smallest to largest.",
+          "items": ["1/4", "1/2", "3/4", "1 whole"],
+          "hint": "Think about slices of the same pizza — how much is on the plate each time?",
+          "explanation": "1/4 < 1/2 < 3/4 < 1 whole."
+        }
+      ]
+    }
+  ]
+}

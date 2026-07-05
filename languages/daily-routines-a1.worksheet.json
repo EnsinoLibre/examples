@@ -1,0 +1,64 @@
+{
+  "$schemaVersion": "2.0",
+  "title": "Daily Routines",
+  "subject": "English as a Foreign Language",
+  "topic": "Present simple and daily routines",
+  "audience": "Adult beginners (CEFR A1)",
+  "language": "en-GB",
+  "estimatedMinutes": 25,
+  "instructions": "Practise talking about everyday activities. Listen with the play buttons, and use the Check button as you go.",
+  "sections": [
+    {
+      "title": "Vocabulary",
+      "activities": [
+        {
+          "type": "flashdeck",
+          "cards": [
+            { "front": "wake up", "back": "acordar", "example": "I wake up at seven o'clock.", "emoji": "⏰" },
+            { "front": "have breakfast", "back": "tomar o pequeno-almoço", "example": "We have breakfast in the kitchen.", "emoji": "🥐" },
+            { "front": "go to work", "back": "ir para o trabalho", "example": "She goes to work by bus.", "emoji": "🚌" },
+            { "front": "have lunch", "back": "almoçar", "example": "They have lunch at one.", "emoji": "🍽️" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grammar: present simple",
+      "activities": [
+        {
+          "type": "grammar-forms",
+          "grammar": "Present simple — to get up",
+          "forms": [
+            { "label": "Positive", "sentence": "He **gets up** early.", "gloss": "Ele levanta-se cedo." },
+            { "label": "Negative", "sentence": "He **does not get up** early.", "gloss": "Ele não se levanta cedo." },
+            { "label": "Question", "sentence": "**Does** he **get up** early?", "gloss": "Ele levanta-se cedo?" }
+          ]
+        },
+        {
+          "type": "gap-fill",
+          "text": "Every morning I {{wake}} up at seven and {{have}} breakfast with my family.",
+          "hint": "Use the present simple 'I' form — no ending is added.",
+          "explanation": "With 'I', the present simple keeps the base verb: wake, have."
+        }
+      ]
+    },
+    {
+      "title": "Listening and writing",
+      "activities": [
+        {
+          "type": "dictation",
+          "items": [
+            { "text": "She gets up at half past six.", "hint": "Listen for the time." },
+            { "text": "They do not work on Sundays.", "hint": "There is a negative in this sentence." }
+          ]
+        },
+        {
+          "type": "open-response",
+          "prompt": "Write three sentences about your morning routine. What time do you wake up? What do you have for breakfast?",
+          "minWords": 15,
+          "sampleAnswer": "I wake up at half past six. I have coffee and toast for breakfast. Then I go to work by bus."
+        }
+      ]
+    }
+  ]
+}

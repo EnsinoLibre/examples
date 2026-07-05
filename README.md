@@ -1,46 +1,36 @@
-# EnsinoLibre Examples
+<div align="center">
 
-This repo is a growing library of real worksheets built with EnsinoLibre, free to use, adapt, and share. Worksheets are organized by subject and grade so teachers can find what they need fast.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EnsinoLibre/assets/main/wordmark-primary-dark.svg">
+  <img src="https://raw.githubusercontent.com/EnsinoLibre/assets/main/wordmark-primary-light.svg" alt="EnsinoLibre" width="360">
+</picture>
 
-## Browse worksheets
+# examples — community worksheets
 
-| Subject | Grade | Title | Link |
-|---|---|---|---|
-| Math | 3 | Fractions Intro | [math/grade-3/fractions-intro.md](math/grade-3/fractions-intro.md) |
-| Language Arts | 5 | Reading Comprehension: The Oldest Tree in the Park | [language-arts/grade-5/reading-comprehension.md](language-arts/grade-5/reading-comprehension.md) |
-| Science | 2 | Plant Life Cycle | [science/grade-2/plant-life-cycle.md](science/grade-2/plant-life-cycle.md) |
+</div>
 
-More worksheets get added over time. If you don't see your subject or grade yet, consider contributing one.
+---
 
-## How to use a worksheet
+Ready-to-use EnsinoLibre worksheets to fork, adapt and learn from. Each is a single `.worksheet.json` file in the EnsinoLibre format — paste it into the [builder](https://github.com/EnsinoLibre/core) to use it interactively, print it, or export the analog Markdown version.
 
-1. Open the worksheet file you want, right in your browser on GitHub.
-2. Either copy the content into the [EnsinoLibre builder](https://github.com/ensinolibre/core) to format and print it, or just copy the text directly into a document and print or adapt it yourself.
-3. Change the numbers, names, or wording to fit your class. That's allowed and encouraged.
+All worksheets here are shared under **[CC BY-SA 4.0](LICENSE)** — use them, remix them, keep credit, and share your changes alike.
 
-No coding needed. These are plain text files you can read and copy like any document.
+## Contents
 
-## How to contribute a worksheet
+| Subject | Worksheet | Level |
+|---------|-----------|-------|
+| Science | [Solar System](science/solar-system.worksheet.json) | Year 6 |
+| Mathematics | [Introducing Fractions](mathematics/fractions-intro.worksheet.json) | Year 4 |
+| Languages | [Daily Routines](languages/daily-routines-a1.worksheet.json) | EFL A1 |
 
-Have a worksheet you use in your own classroom? We'd love to add it. You don't need to know how to code, just how to write a worksheet, and either GitHub's web editor (no install required) or a maintainer who can help you get it in.
+Every worksheet validates against the [`blocks`](https://github.com/EnsinoLibre/blocks) schema.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full walkthrough.
+## How to use one
 
-## License
+1. Open a worksheet file and copy its contents.
+2. Go to the [builder](https://github.com/EnsinoLibre/core), scroll to **Render your worksheet**, paste, and click **Render**.
+3. Use it on screen, **Print / save as PDF**, or **Download analog version** for a paper handout with an answer key.
 
-Everything in this repo is licensed under **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**. In plain language, that means:
+## Contributing a worksheet
 
-- You can use and adapt any worksheet here for free, for any purpose, including in your own classroom or school.
-- You must credit the original author when you use or adapt their worksheet.
-- If you share your adapted version with others, you must share it under this same license, so the next teacher can use and adapt it too.
-
-Read the full legal text in [LICENSE](LICENSE).
-
-## Related projects
-
-- [ensinolibre/core](https://github.com/ensinolibre/core), the worksheet builder these worksheets are made with
-- [ensinolibre/docs](https://github.com/ensinolibre/docs), documentation for the whole EnsinoLibre project
-
-## Get help
-
-Questions, ideas, or stuck on something? Post in [GitHub Discussions](https://github.com/orgs/ensinolibre/discussions). We're happy to help.
+Add a `.worksheet.json` file under the right subject folder (create one if needed) and open a PR. Keep it self-contained (no external images or audio — spoken text goes in `transcript`/`text` fields), make sure answers are correct, and validate it in the builder first. See the [docs](https://github.com/EnsinoLibre/docs) for the format.
