@@ -43,13 +43,15 @@
       ]
     },
     {
-      "title": "Listening and writing",
+      "title": "Reading and writing",
       "activities": [
         {
-          "type": "dictation",
-          "items": [
-            { "text": "She gets up at half past six.", "hint": "Listen for the time." },
-            { "text": "They do not work on Sundays.", "hint": "There is a negative in this sentence." }
+          "type": "question-set",
+          "instruction": "Decide whether each sentence is true or false.",
+          "passMark": 1,
+          "questions": [
+            { "subtype": "true-false", "statement": "In the present simple, 'he' takes the verb form 'get up'.", "answer": false, "explanation": "With he/she/it we add -s: 'he gets up'." },
+            { "subtype": "true-false", "statement": "'They do not work on Sundays' is a correct negative sentence.", "answer": true, "explanation": "The negative uses 'do not' + base verb." }
           ]
         },
         {
